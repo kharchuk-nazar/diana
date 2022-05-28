@@ -1,0 +1,97 @@
+.container {
+    margin: 35px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    align-items: start;
+}
+
+.my_login {
+    position: absolute;
+    width: 60%;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: calc(50% - 200px);
+}
+
+.login_content {
+    padding: 40px 0 0 100px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+form button {
+    margin-top: 80px;
+}
+
+.my_cancel {
+    margin-left: 80px;
+}
+
+.my_table {
+    max-width: 80%;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.content_text {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.about_section_img_div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.about_section_img_div img {
+    width: 50%;
+}
+
+.about_section_img_div div {
+    margin: 0 30px;
+    text-align: left;
+}
+
+.parents_img {
+    width: 100%;
+}
+
+.parents_img img {
+    width: 50%;
+}
+
+.school_life_img {
+    width: 100%;
+}
+
+.school_life_img img {
+    width: 50%;
+}
+
+.docs {
+    width: 100%;
+    text-align: left;
+}
+
+.docs div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.docs div img {
+    width: 60%;
+    margin: 10px;
+}

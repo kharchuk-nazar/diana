@@ -1,0 +1,126 @@
+.my_header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_header h1 {
+    width: 50%;
+    padding: 0 40px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5em;
+    font-family: 'Courgette', cursive;
+}
+
+.my_header div {
+    height: 100%;
+    
+}
+
+.my_header img {
+    text-align: right;
+    height: 100%;
+}
+
+.log {
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.my_navbar ul li a {
+    font-size: 16px;
+}
+
+.my_navbar ul li {
+    position: relative;
+}
+
+aside, section {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(53, 53, 53, 0.5);
+    background-color: #fff;
+}
+
+aside {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+aside h2, section h2, section h4 {
+    font-size: 26px;
+    color: blue;
+    margin: 0;
+}
+
+section {
+    padding: 35px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section h4 {
+    font-family: 'Lora', serif;
+    width: 80%;
+    text-align: left;
+    margin: 20px auto 0 auto;
+}
+
+section p {
+    color: rgb(118, 118, 118);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: left;
+    
+}
+
+.aside_content {
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+table {
+    margin-bottom: 100px;
+}
+
+.my_popup {
+    top: 64px;
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    width: 200px;
+}
+
+.my_popup ul {
+    margin: 0;
+    border: none;
+}
+
+.my_popup ul li {
+    width: 100%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.my_popup ul li a {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+.my_footer {
+    text-align: center;
+}
+
+.my_footer div {
+    margin: 0 auto 50px auto;
+    
+}
+
